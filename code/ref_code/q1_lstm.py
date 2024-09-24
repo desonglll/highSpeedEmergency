@@ -12,7 +12,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f'使用设备：{device}')
 
 # 读取CSV数据
-df = pd.read_csv('./res/32.31.250.103/20240501_20240501125647_20240501140806_125649.csv')
+df = pd.read_csv('../res/32.31.250.103/20240501_20240501125647_20240501140806_125649.csv')
 
 # 设置'Frame'为索引
 df.set_index('Frame', inplace=True)

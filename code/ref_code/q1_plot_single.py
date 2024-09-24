@@ -46,7 +46,7 @@ print("\n描述性统计：")
 print(df.describe())
 
 # 创建一个保存图像的目录
-output_dir = 'plots'
+output_dir = '../plots'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
